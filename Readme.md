@@ -51,8 +51,8 @@ src/main/java/com/hibernateLibraryProject/ <br>
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/VarunPratapChauhan/HibernateLibraryProject.git
-   cd HibernateLibraryProject
+   git clone https://github.com/yashshekhar01/library_management.git
+   cd library_management 
    
 2.  **Set up the database:**
 
