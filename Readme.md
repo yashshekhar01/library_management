@@ -56,19 +56,19 @@ src/main/java/com/hibernateLibraryProject/ <br>
    
 2.  **Set up the database:**
 
-Install MySQL and create a database named "hiber_lib".
-Run the following SQL script to create and use hiber_lib and don't worry about tables, they will create automatically when we run the application:
+Install MySQL and create a database named "hiber_libmanage".
+Run the following SQL script to create and use hiber_libmanage and don't worry about tables, they will create automatically when we run the application:
 
 ```
-create DATABASE hiber_lib;
-use hiber_lib;
+create DATABASE hiber_libmanage;
+use hiber_libmanage;
 ```
 
 3.  **Configure Hibernate:**
 
 Update the hibernate.cfg.xml file with your MySQL credentials:
 ```
-<property name="connection.url">jdbc:mysql://localhost:3306/hiber_lib</property>
+<property name="connection.url">jdbc:mysql://localhost:3306/hiber_libmanage</property>
 <property name="connection.username">your-username</property>
 <property name="connection.password">your-password</property>
 ```
